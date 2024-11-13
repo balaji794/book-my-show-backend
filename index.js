@@ -10,7 +10,7 @@ const DB_NAME = "movie_db";
 const COLLECTION_NAME = "movies";
 app.use(
   cors({
-    origin: "*",
+    origin: "https://github.com/balaji794/book-my-show",
   })
 );
 app.use(express.json());
